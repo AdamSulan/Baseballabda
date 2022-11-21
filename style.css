@@ -1,3 +1,9 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -13,13 +19,24 @@ body {
     width: 800px;
     margin-top: 150px;
     margin: auto;
+    border: right 2px solid red;
+    border: left 2px solid red;
 }
 
 .frame {
     padding:20px;
     margin:10px;
+    float: right;
+    width: 150px;
+    border: left 2px solid black;
 }
 
 .frame img{
     width: 150px;
+    text-align: center;
+    font-style: italic;
+}
+a:hover{
+    color: red;
+
 }
